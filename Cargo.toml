@@ -30,5 +30,6 @@ armature-core = { path = "../armature-core", version = "0", optional = true }
 bytes = { version = "1", optional = true }
 
 [dev-dependencies]
+cargo-husky = { version = "1.5", default-features = false, features = ["user-hooks"] }
 tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
 
