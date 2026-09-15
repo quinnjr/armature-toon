@@ -1,6 +1,6 @@
 [package]
 name = "armature-toon"
-version = "0.4.0"
+version = "0.5.0"
 edition = "2024"
 rust-version = "1.94.1"
 authors = ["Joseph Quinn <quinn.josephr@proton.me>"]
@@ -26,7 +26,7 @@ thiserror = "2.0"
 armature-log = { version = "0.2" }
 
 # Optional dependencies
-armature-core = { version = "0.9", optional = true }
+armature-core = { version = "0.10", optional = true }
 bytes = { version = "1", optional = true }
 
 [dev-dependencies]
